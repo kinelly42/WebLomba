@@ -31,6 +31,14 @@
     include 'component/card.php'
     ?>
     <!-- CardEnd -->
+
+    <!-- Footer -->
+    <?php
+    include 'component/footer.php'
+    ?>
+    <!-- FooterEnd -->
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

@@ -11,6 +11,7 @@
     <style>
         .card {
             padding-right: 50px;
+
         }
 
         .custom-border {
@@ -26,40 +27,44 @@
         .rounded-img {
             border-radius: 10px;
         }
+
+        .text {
+            color: white;
+        }
     </style>
 
 </head>
 
 <body>
     <!-- Card -->
-    <div class="card">
+    <div class="card bg-dark mt-10 ">
 
-        <div class="container">
-            <div class="row custom-border" data-aos="fade-up">
+        <div class="container ">
+            <div class="row custom-border " data-aos="fade-up" style="background-color :#4F4557">
                 <div class="col-md-6">
                     <img src="./asset/music4.jpg" alt="Gambar" class="img-fluid rounded-img">
                 </div>
                 <div class="col-md-6">
-                    <h2>Judul Artikel</h2>
-                    <p>Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
+                    <h2 class="text">Judul Artikel</h2>
+                    <p class="text">Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
                 </div>
             </div>
-            <div class="row custom-border" data-aos="fade-up">
+            <div class="row custom-border" data-aos="fade-up" style="background-color :#4F4557">
                 <div class="col-md-6">
                     <img src="./asset/music4.jpg" alt="Gambar" class="img-fluid rounded-img">
                 </div>
                 <div class="col-md-6">
-                    <h2>Judul Artikel</h2>
-                    <p>Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
+                    <h2 class="text">Judul Artikel</h2>
+                    <p class="text">Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
                 </div>
             </div>
-            <div class="row custom-border" data-aos="fade-up">
+            <div class="row custom-border" data-aos="fade-up" style="background-color :#4F4557">
                 <div class="col-md-6">
                     <img src="./asset/music4.jpg" alt="Gambar" class="img-fluid rounded-img">
                 </div>
                 <div class="col-md-6">
-                    <h2>Judul Artikel</h2>
-                    <p>Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
+                    <h2 class="text">Judul Artikel</h2>
+                    <p class="text">Ini adalah contoh teks dalam artikel menggunakan Bootstrap. Teks ini akan berada di sebelah gambar.</p>
                 </div>
             </div>
 

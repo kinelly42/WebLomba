@@ -12,28 +12,32 @@
         .rounded-img {
             border-radius: 5px;
         }
+
+        .text {
+            color: #fff;
+        }
     </style>
 </head>
 
-<body>
+<body class="" style="background-color:#393646">
     <div class="container">
         <div class="jumbotron text-center" data-aos="fade-down">
-            <h1>Selamat Datang di Perusahaan ABC</h1>
-            <p>Perusahaan terkemuka di bidang X, Y, dan Z.</p>
+            <h1 class="text">Selamat Datang di Perusahaan ABC</h1>
+            <p class="text">Perusahaan terkemuka di bidang X, Y, dan Z.</p>
         </div>
 
         <div class="row">
             <div class="col-md-6">
                 <img src="./asset/music.jpg" alt="Gambar" class="img-fluid rounded-img" data-aos="fade-down">
             </div>
-            <div class="col-md-6" data-aos="fade-down">
+            <div class="col-md-6 text" data-aos="fade-down">
                 <h2>Tentang Kami</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non eros vitae sapien tempus facilisis. Mauris ac feugiat tortor. Proin eget tincidunt enim, a malesuada enim. Sed sed elit massa.</p>
                 <p>Nullam consectetur, lorem vel sollicitudin finibus, odio purus volutpat metus, at consectetur lorem dui id justo. Etiam dapibus cursus dapibus. Nullam tincidunt est vitae odio bibendum molestie. Aenean at lectus et sem blandit ullamcorper vel at ante.</p>
             </div>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 text">
             <div class="col-md-6" data-aos="fade-down">
                 <h2>Visi</h2>
                 <p>Visi perusahaan ABC adalah menjadi pemimpin industri dalam inovasi dan keunggulan produk.</p>

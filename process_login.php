@@ -11,8 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['username'] = $username;
         header("location: dashboard.php");
     } else {
-        $error = "Password salah.";
-        echo "<script>alert('Password salah.')</script>";
+
+        echo "<script>alert('Username atau password salah. Silakan coba lagi.'); window.location.href = 'login.php';</script>";
+        exit;
     }
 }
 ?>
