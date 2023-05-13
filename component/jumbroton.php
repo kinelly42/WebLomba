@@ -20,10 +20,10 @@
 
 <body class="" style="background-color:#393646">
     <div class="container">
-        <div class="jumbotron text-center" data-aos="fade-down">
+        <!-- <div class="jumbotron text-center" data-aos="fade-down">
             <h1 class="text">Selamat Datang di Perusahaan ABC</h1>
             <p class="text">Perusahaan terkemuka di bidang X, Y, dan Z.</p>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col-md-6">

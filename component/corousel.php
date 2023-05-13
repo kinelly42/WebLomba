@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <style>
         .carousel-item {
@@ -53,8 +55,8 @@
             <div class="carousel-item active">
                 <img src="./asset/music.jpg" class="d-block w-100" alt="Gambar 1">
                 <div class="carousel-caption align-items-center justify-content-center">
-                    <h1 class="judul">Judul Gambar 1</h1>
-                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+                    <h1 class="judul" data-aos="fade-down-right">Judul Gambar 1</h1>
+                    <p class="judul" data-aos="fade-down-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
 
 
                 </div>
@@ -62,8 +64,8 @@
             <div class="carousel-item">
                 <img src="./asset/music4.jpg" class="d-block w-100" alt="Gambar 2">
                 <div class="carousel-caption  align-items-center justify-content-center">
-                    <h1 class="judul">Judul Gambar 2</h1>
-                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+                    <h1 class="judul" data-aos="fade-down-right">Judul Gambar 2</h1>
+                    <p class="judul" data-aos="fade-down-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
 
 
                 </div>
@@ -71,8 +73,8 @@
             <div class="carousel-item">
                 <img src="./asset/music5.jpg" class="d-block w-100" alt="Gambar 3">
                 <div class="carousel-caption  align-items-center justify-content-center">
-                    <h1 class="judul">Judul Gambar 3</h1>
-                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+                    <h1 class="judul" data-aos="fade-down-right">Judul Gambar 3</h1>
+                    <p class="judul" data-aos="fade-down-right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
 
 
                 </div>
@@ -91,6 +93,10 @@
     <!-- CarouselEnd -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

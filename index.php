@@ -20,6 +20,14 @@
     ?>
     <!-- CarouselEnd -->
 
+
+
+    <!-- Jumbroton1 -->
+    <?php
+    include 'component/jumbroton1.php'
+    ?>
+    <!-- Jumbroton1End -->
+
     <!-- Jumbroton -->
     <?php
     include 'component/jumbroton.php'
@@ -32,10 +40,17 @@
     ?>
     <!-- CardEnd -->
 
-    <!-- Team -->
+
+    <!-- Project -->
     <?php
-    include 'component/team.php'
+    include 'component/project.php'
     ?>
+    <!-- ProjectEnd -->
+
+    <!-- Team -->
+    <!-- <?php
+            // include 'component/team.php'
+            ?> -->
     <!-- TeamEnd -->
 
 
