@@ -1,10 +1,20 @@
 <?php
 // Konfigurasi database
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'lombaweb');
-$db = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+$servername = "localhost"; // Nama server database
+$username = "root"; // Username database
+$password = ""; // Password database
+$dbname = "lombaweb"; // Nama database
+
+// Membuat koneksi ke database
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Memeriksa koneksi
+if ($conn->connect_error) {
+    die("Koneksi gagal: " . $conn->connect_error);
+}
+
+
+
 
 // Untuk Membuat Id dan Password
 $admin_id = "admin";

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 
     <style>
@@ -53,22 +52,28 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./asset/music.jpg" class="d-block w-100" alt="Gambar 1">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <div class="carousel-caption align-items-center justify-content-center">
                     <h1 class="judul">Judul Gambar 1</h1>
+                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+
 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./asset/music4.jpg" class="d-block w-100" alt="Gambar 2">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <div class="carousel-caption  align-items-center justify-content-center">
                     <h1 class="judul">Judul Gambar 2</h1>
+                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+
 
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./asset/music5.jpg" class="d-block w-100" alt="Gambar 3">
-                <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <div class="carousel-caption  align-items-center justify-content-center">
                     <h1 class="judul">Judul Gambar 3</h1>
+                    <p class="judul">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, omnis nesciunt. Nulla ipsum ab nemo.</p>
+
 
                 </div>
             </div>

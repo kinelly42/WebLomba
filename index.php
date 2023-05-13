@@ -32,6 +32,20 @@
     ?>
     <!-- CardEnd -->
 
+    <!-- Team -->
+    <?php
+    include 'component/team.php'
+    ?>
+    <!-- TeamEnd -->
+
+
+
+    <!-- KritikSaran -->
+    <?php
+    include 'component/kritik.php'
+    ?>
+    <!-- KritikSaranEnd -->
+
     <!-- Footer -->
     <?php
     include 'component/footer.php'

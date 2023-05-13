@@ -17,10 +17,6 @@
         .card {
             background-color: #212529;
         }
-
-        .tombol {
-            margin-top: 10px;
-        }
     </style>
 </head>
 
@@ -30,7 +26,7 @@
             <div class="col-lg-6">
                 <div class="card mt-5">
                     <div class="card-header text-white">
-                        <h3>Login</h3>
+                        <h3>Login Admin</h3>
                     </div>
                     <div class="card-body">
                         <form action="process_login.php" method="post">
@@ -42,8 +38,8 @@
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password">
                             </div>
-                            <button type="submit" class="btn btn-primary my-5" id="tombol">Login</button>
-                            <a href="index.php" class="btn btn-secondary" id="tombol">Go Back</a>
+                            <button type="submit" class="btn btn-primary my-5">Login</button>
+                            <a href="index.php" class="btn btn-secondary">Go Back</a>
                         </form>
                     </div>
                 </div>
